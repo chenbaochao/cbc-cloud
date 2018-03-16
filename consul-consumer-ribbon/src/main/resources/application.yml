@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: consul-consumer-ribbon
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+server:
+  port: 2101

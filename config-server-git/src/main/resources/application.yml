@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chenbaochao/config-client.git/
+          username: 674181203@qq.com
+          password: qq674181203
+server:
+  port: 1201

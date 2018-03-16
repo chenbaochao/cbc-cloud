@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
+        <module name="config-server-git" />
+        <module name="consul-client" />
+        <module name="consul-consumer" />
+        <module name="consul-consumer-feign" />
+        <module name="consul-consumer-ribbon" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-client" target="1.8" />
+      <module name="config-server-git" target="1.8" />
+      <module name="consul-client" target="1.8" />
+      <module name="consul-consumer" target="1.8" />
+      <module name="consul-consumer-feign" target="1.8" />
+      <module name="consul-consumer-ribbon" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
